@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+}
+
+.Navbar {
+  margin: 0 auto;
+  height: 72px;
+  box-shadow: 0px 3px 6px 3px #bbbbbb;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  background: white;
+  z-index: 1;
+}
+
+.header {
+  height: 72px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Uber {
+  font-family: "Roboto Medium";
+  align-items: center;
+  text-align: center;
+}
+
+.Eats {
+  font-family: "Roboto Thin";
+  color: #57ad56;
+  align-items: center;
+  text-align: center;
+}
+
+.header_right {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sign_in {
+  padding: 14px 20px 14px 20px;
+  border: 1px solid #e0e0e0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.sign_in:hover {
+  background: #f5f5f5;
+  cursor: default;
+  box-shadow: 3px 3px 4px 2px #d7d7d7;
+}
+
+.sign_in:active {
+  background: #d7d7d7;
+}
+
+.basket {
+  padding: 0px 0px 0px 16px;
+}
+
+.Jumbotron {
+  background: url("pics/photo.png");
+  background-size: cover;
+  height: 360px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 6px 3px #bbbbbb;
+  z-index: -1;
+}
+
+.name {
+  background: #ffffff;
+  height: 200px;
+  box-shadow: 0px 3px 3px 1px #bbbbbb;
+}
+
+.naming {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  align-items: center;
+  color: #1d1d1d;
+  margin: 30px;
+  padding: 0px 0px 0px 10px;
+}
+
+.info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  justify-content: center;
+  margin: 20px 0px 20px 30px;
+  color: #626262;
+}
+
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: 20px 20px 20px 0px;
+  padding: 10px 16px 10px 16px;
+  background: #262626;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.Filters {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  margin: 20px 10px 15px 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d1d1d;
+}
+
+.active {
+  color: #327430;
+}
+
+.SnacksAll {
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+
+.Snack1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  margin: 10px;
+}
+
+.snacks {
+  display: flex;
+  height: 100%;
+  z-index: -1;
+}
+
+.snack {
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  border-radius: 3px;
+  margin: 2px;
+  height: 160px;
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  background: #fafafa;
+  margin: 20px 4px 20px 4px;
+}
+
+.snack_left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.snack_name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+
+  padding: 15px 0px 0px 15px;
+}
+
+.description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #626262;
+  padding: 15px 0px 0px 15px;
+}
+
+.price {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #1d1d1d;
+  padding: 15px 0px 10px 15px;
+  align-items: flex-end;
+}
+
+.before_footer {
+  height: 100px;
+}
+
+.footer {
+  background: #262626;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.logo2 {
+  margin: 40px;
+  padding: 10px 0px 0px 15px;
+  width: 100%;
+}
+
+.hr_line {
+  padding: 0;
+  height: 2px;
+  width: 90%;
+  background-color: #ffffff;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.footer2 {
+  margin: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer21 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  text-align: center;
+}
+
+.language {
+  padding: 15px 0px 15px 0px;
+  margin: 20px 0px 20px 0px;
+  border: 1px solid #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.UberEats {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+}
+
+.information {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.inactive {
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0px 20px 0px;
+}
